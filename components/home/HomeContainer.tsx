@@ -1,7 +1,7 @@
 import CompanyCustomers from '@/components/home/CompanyCustomers';
-import { useQuery } from 'react-query';
-import aboutImage from '@/public/about_company.webp';
-import { Skeleton } from '../ui/skeleton';
+// import { useQuery } from 'react-query';
+// import aboutImage from '@/public/about_company.webp';
+// import { Skeleton } from '../ui/skeleton';
 import CompanyServices from './CompanyServices';
 import AboutCompany from './AboutCompany';
 import HomeProjects from './HomeProjects';

@@ -95,6 +95,7 @@ const CompanyCustomers = () => {
               alt={client.alt}
               height={180}
               priority
+              
               className='px-4'
             />
           ))}

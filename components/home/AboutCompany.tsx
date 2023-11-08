@@ -60,6 +60,7 @@ const AboutCompany = () => {
             height={600}
             width={0}
             loading='lazy'
+            placeholder='blur'
             className='w-full object-cover'
           />
         </div>

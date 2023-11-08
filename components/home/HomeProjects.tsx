@@ -34,7 +34,7 @@ const projects = [
 
 const HomeProjects = () => {
   return (
-    <section className='py-6 md:py-12'>
+    <section className='py-12 md:py-24'>
       <Wrapper>
         <div className='text-center mb-20'>
           <h2 className='text-primary-2 text-heading-2 sm:text-heading-1 font-bold'>
