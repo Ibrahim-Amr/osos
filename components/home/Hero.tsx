@@ -11,7 +11,7 @@ const Hero = () => {
           alt='ossos hero image'
           fill
           priority
-          className='object-cover object-bottom  animate-scale-up'
+          className='object-cover object-bottom animate-scale-up'
         />
       </div>
       <Wrapper className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-20 text-center text-primary-2 w-full'>

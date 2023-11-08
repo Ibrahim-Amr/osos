@@ -28,6 +28,8 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           alt={project.title}
           height={450}
           className='object-cover'
+          loading='lazy'
+          
         />
       </div>
       <div>

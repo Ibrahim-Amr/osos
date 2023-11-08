@@ -45,7 +45,7 @@ const AboutCompany = () => {
                 aria-label='تواصل معنا'
                 className={buttonVariants({
                   className:
-                    'font-semibold text-heading-5 py-4 px-20 rounded-md shadow-lg w-full sm:w-fit',
+                    'font-semibold text-heading-5 py-4 !px-20 rounded-md shadow-lg w-full sm:w-auto !bg-primary-2',
                 })}
               >
                 <span>تواصل معنا</span>
@@ -59,6 +59,7 @@ const AboutCompany = () => {
             alt='about_company'
             height={600}
             width={0}
+            loading='lazy'
             className='w-full object-cover'
           />
         </div>

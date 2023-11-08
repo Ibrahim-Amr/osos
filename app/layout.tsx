@@ -23,13 +23,13 @@ export async function generateMetadata(): Promise<Metadata> {
       default: 'أسس و تخطيط للمقاولات العامة',
     },
     description: 'أسس و تخطيط للمقاولات العامة',
-    applicationName: 'دار مكة',
+    applicationName: 'أسس و تخطيط للمقاولات العامة',
     keywords: 'أسس و تخطيط للمقاولات العامة',
-    metadataBase: new URL('https://darmaaka.com'),
+    metadataBase: new URL('https://www.google.com/'),
     alternates: {
       canonical: '/',
     },
-    publisher: 'أسس',
+    publisher: 'planing-solutions',
     icons: '/logo.webp',
     creator: 'Ibrahim Omar',
     appleWebApp: {
@@ -40,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       type: 'website',
-      url: 'https://darmaaka.com',
+      url: '/',
       title: 'أسس و تخطيط للمقاولات العامة',
       description: 'أسس و تخطيط للمقاولات العامة',
       siteName: 'أسس',
@@ -58,12 +58,40 @@ export async function generateMetadata(): Promise<Metadata> {
         },
       ],
     },
+    twitter: {
+      title: 'أسس و تخطيط للمقاولات العامة',
+      description: 'أسس و تخطيط للمقاولات العامة',
+      card: 'summary_large_image',
+      site: '@ebrahim_omar4',
+      creator: '@ebrahim_omar4',
+      images: {
+        url: '/openGraph.webp',
+        alt: 'أسس',
+      },
+      creatorId: '@ebrahim_omar4',
+      siteId: '@ebrahim_omar4',
+    },
     authors: [
       {
         name: 'الحلول للتخطيط',
-        url: 'https://planing-solutions.com/',
+        url: 'https://planing-solutions.com',
       },
     ],
+    referrer: 'origin',
+    generator: 'Next.js',
+    // viewport: {
+    //   width: 'device-width',
+    //   height: 'device-height',
+    //   initialScale: 1,
+    //   minimumScale: 1,
+    //   maximumScale: 5,
+    //   userScalable: true,
+    //   viewportFit: 'cover',
+    // },
+    // other: {
+    //   google: 'notranslate',
+    // },
+
     // themeColor: '#ffffff',
   };
 }
