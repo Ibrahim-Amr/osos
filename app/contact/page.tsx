@@ -7,23 +7,22 @@ import SectionHeader from '@/components/SectionHeader.tsx';
 
 export const metadata: Metadata = {
   title: 'تواصل معنا',
-  description: 'دار مكة للأستشارات الهندسية',
-  keywords: 'دار مكة للأستشارات الهندسية',
+  description: 'أسس و تخطيط للمقاولات العامة',
+  keywords: 'أسس و تخطيط للمقاولات العامة',
   alternates: {
     canonical: '/contact',
   },
   openGraph: {
     type: 'website',
-    url: 'https://darmaaka.com/contact',
-    title: 'دار مكة - تواصل معنا',
-    description: 'دار مكة للأستشارات الهندسية',
-    siteName: 'دار مكة',
+    url: '/contact',
+    title: 'أسس و تخطيط - أعمالنا',
+    description: 'أسس و تخطيط للمقاولات العامة',
+    siteName: 'أسس و تخطيط',
     countryName: 'السعودية',
-    phoneNumbers: '0120399237',
+    phoneNumbers: '966555911872',
     locale: 'ar',
     alternateLocale: 'en',
     emails: 'ebrahimamra69@gmail.com',
-    faxNumbers: '0120347029',
     images: [
       {
         url: '/openGraph.webp',

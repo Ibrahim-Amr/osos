@@ -21,7 +21,7 @@ const MenuContent = ({ isOpen, setIsOpen }: MenuContentProps) => {
       exit={{ opacity: 0, y: -100 }}
       transition={{ ease: 'easeInOut', duration: 0.5 }}
       className={cn(
-        'fixed top-0 inset-0 bg-black/90 z-50 h-[100svh] md:hidden p-3 py-5 backdrop-blur-md',
+        'fixed top-0 inset-0 bg-black/80 z-50 h-[100dvh] md:hidden p-3 py-5 backdrop-blur-sm',
         isOpen
           ? 'inline-flex flex-col justify-center items-start flex-grow'
           : 'hidden'

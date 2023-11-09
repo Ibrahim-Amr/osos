@@ -16,6 +16,8 @@ const links = [
 const NavLinks = () => {
   const pathname = usePathname();
 
+  console.log(pathname);
+
   return (
     <nav className='md:block hidden'>
       <ul className='flex justify-between items-center gap-5 text-xl font-semibold text-primary-2'>

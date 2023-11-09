@@ -1,37 +1,45 @@
+import SectionHeader from '@/components/SectionHeader.tsx';
 import { Metadata } from 'next';
+import background from '@/public/contact.webp';
 
 export const metadata: Metadata = {
   title: 'أعمالنا',
-  description: 'دار مكة للأستشارات الهندسية',
-  keywords: 'دار مكة للأستشارات الهندسية',
+  description: 'أسس و تخطيط للمقاولات العامة',
+  keywords: 'أسس و تخطيط للمقاولات العامة',
   alternates: {
-    canonical: '/portfolio',
+    canonical: '/work',
   },
   openGraph: {
     type: 'website',
-    url: 'https://darmaaka.com/portfolio',
-    title: 'دار مكة - أعمالنا',
-    description: 'دار مكة للأستشارات الهندسية',
-    siteName: 'دار مكة',
+    url: '/work',
+    title: 'أسس و تخطيط - أعمالنا',
+    description: 'أسس و تخطيط للمقاولات العامة',
+    siteName: 'أسس و تخطيط',
     countryName: 'السعودية',
-    phoneNumbers: '0120399237',
+    phoneNumbers: '966555911872',
     locale: 'ar',
     alternateLocale: 'en',
     emails: 'ebrahimamra69@gmail.com',
-    faxNumbers: '0120347029',
     images: [
       {
         url: '/openGraph.webp',
         width: 800,
         height: 800,
-        alt: 'دار مكة',
+        alt: 'أسس و تخطيط',
       },
     ],
   },
 };
 
 const page = () => {
-  return <section className='min-h-[100svh]'></section>;
+  return (
+    <section className='min-h-[100dvh]'>
+      <SectionHeader
+        title='نبذة من اعمالنا'
+        image={background}
+      />
+    </section>
+  );
 };
 
 export default page;

@@ -20,7 +20,7 @@ const SectionHeader = ({ title, subtitle, image }: headerProps) => {
         fill
       />
       <Wrapper className='z-20'>
-        <h1 className='text-2xl sm:text-fluid-2 font-bold text-white leading-none mb-5'>
+        <h1 className='text-fluid-2 font-bold text-white leading-none mb-5'>
           {title}
         </h1>
         {subtitle ? (
